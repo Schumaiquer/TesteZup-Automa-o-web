@@ -28,6 +28,10 @@ public class Helpers {
         return driver.findElement(By.tagName(element_TAG));
     }
 
+    public WebElement waitElementLink(String element_LINK){
+        return driver.findElement(By.linkText(element_LINK));
+    }
+
     public WebElement waitElementXPath(String element_XPath) {
         return driver.findElement(By.xpath(element_XPath));
     }

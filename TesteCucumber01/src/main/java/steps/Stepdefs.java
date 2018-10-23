@@ -34,6 +34,7 @@ public class Stepdefs extends Helpers {
     @And("^Clico em entrar$")
     public void clicoEmEntrar() throws Throwable {
         waitElementTag("button").click();
+        Assert.assertEquals("Bem vindo, schu!",waitElementXPath("/html/body/div[1]").getText());
     }
 
     @Then("^valido mensagem erro$")
@@ -119,5 +120,39 @@ public class Stepdefs extends Helpers {
     public void validoMensagem() throws Throwable {
         WebElement element = waitElementXPath("/html/body/div[1]");
         Assert.assertEquals("Usuário inserido com sucesso", element.getText());
+    }
+
+    @When("^informo um usuario e senha$")
+    public void informoUmUsuarioESenha() throws Throwable {
+        waitElementID("email").sendKeys("schu@schu1");
+        waitElementID("senha").sendKeys("123");
+    }
+
+    @And("^Clico em Contas$")
+    public void clicoEmContasAdicionar() throws Throwable {
+        waitElementLink("Contas").click();
+    }
+
+    @And("^Clico em Adicionar$")
+    public void clicoEmAdicionar() throws Throwable {
+        waitElementLink("Adicionar").click();
+    }
+
+    @Given("^um nome de conta$")
+    public void umNomeDeConta() throws Throwable {
+        Random r = new Random();
+        int random = r.nextInt(100);
+      Assert.assertEquals("Nome",waitElementXPath("/html/body/div[2]/form/div[1]/div/label").getText());
+       waitElementID("nome").sendKeys("conta"+random,"s");
+    }
+
+    @When("^Clico em salvar$")
+    public void clicoEmSalvar() throws Throwable {
+        waitElementXPath("/html/body/div[2]/form/div[2]/button").click();
+    }
+
+    @When("^informo uma conta \"([^\"]*)\"$")
+    public void informoUmaConta(String arg0) throws Throwable {
+        waitElementID("nome").sendKeys(arg0);
     }
 }
