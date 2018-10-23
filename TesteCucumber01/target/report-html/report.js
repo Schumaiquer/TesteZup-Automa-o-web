@@ -1,25 +1,25 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("RegisterNewUser.feature");
 formatter.feature({
-  "line": 2,
+  "line": 1,
   "name": "Cadastrar novo usuario",
-  "description": "Como um novo usuario\r\nGostaria de cadastrar\r\nPara assim conseguir logar",
+  "description": "Como um novo usuario\nGostaria de cadastrar\nPara assim conseguir logar",
   "id": "cadastrar-novo-usuario",
   "keyword": "Feature"
 });
 formatter.background({
-  "line": 7,
+  "line": 6,
   "name": "",
   "description": "",
   "type": "background",
   "keyword": "Background"
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "o app aberto",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "clico em Novo usuario",
   "keyword": "When "
 });
@@ -27,14 +27,14 @@ formatter.match({
   "location": "Stepdefs.oAppAberto()"
 });
 formatter.result({
-  "duration": 6899668053,
+  "duration": 3756889516,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmNovoUsuario()"
 });
 formatter.result({
-  "duration": 336793173,
+  "duration": 359771357,
   "status": "passed"
 });
 formatter.scenario({
@@ -68,31 +68,4 @@ formatter.step({
 });
 formatter.match({
   "location": "Stepdefs.informoOsDados()"
-});
-formatter.result({
-  "duration": 20351086933,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmCadastrar()"
-});
-formatter.result({
-  "duration": 602624426,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.validoMensagem()"
-});
-formatter.result({
-  "duration": 48761600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 266946560,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 770332160,
-  "status": "passed"
-});
 });

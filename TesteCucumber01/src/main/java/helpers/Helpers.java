@@ -14,7 +14,7 @@ public class Helpers {
     }
 
     protected void configuration() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/zupper/Documents/Zup/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/ieza/Desktop/test/TesteZup-Automa-o-web/TesteCucumber01/Selenium/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://seubarriga.wcaquino.me/");
     }
