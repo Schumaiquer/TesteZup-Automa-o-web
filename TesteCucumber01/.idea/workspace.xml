@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b21f0dc7-76f6-484c-bc08-c497ad6afc5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Stepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helpers/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/Helpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/Stepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/Stepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/report-html/report.js" afterDir="false" />
-    </list>
+    <list default="true" id="b21f0dc7-76f6-484c-bc08-c497ad6afc5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -191,8 +181,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/Stepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+            <state relative-caret-position="353">
+              <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -683,7 +673,7 @@
       <workItem from="1540314919908" duration="6450000" />
       <workItem from="1540322529652" duration="155000" />
       <workItem from="1540322722240" duration="789000" />
-      <workItem from="1540323944390" duration="615000" />
+      <workItem from="1540323944390" duration="1009000" />
     </task>
     <servers />
   </component>
@@ -720,13 +710,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61826000" />
+    <option name="totallyTimeSpent" value="62220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-181" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -742,7 +731,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21357064" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21357064" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32369298" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -849,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/steps/Stepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+        <state relative-caret-position="353">
+          <caret line="146" column="5" lean-forward="true" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
