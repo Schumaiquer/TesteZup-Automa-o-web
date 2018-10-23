@@ -2,7 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 1,
   "name": "Cadastrar novo usuario",
-  "description": "Como um novo usuario\nGostaria de cadastrar\nPara assim conseguir logar",
+  "description": "Como um novo usuario\r\nGostaria de cadastrar\r\nPara assim conseguir logar",
   "id": "cadastrar-novo-usuario",
   "keyword": "Feature"
 });
@@ -27,14 +27,14 @@ formatter.match({
   "location": "Stepdefs.oAppAberto()"
 });
 formatter.result({
-  "duration": 3756889516,
+  "duration": 6106225067,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmNovoUsuario()"
 });
 formatter.result({
-  "duration": 359771357,
+  "duration": 317663147,
   "status": "passed"
 });
 formatter.scenario({

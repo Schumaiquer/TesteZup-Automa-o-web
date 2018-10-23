@@ -14,7 +14,8 @@ public class Helpers {
     }
 
     protected void configuration() {
-        System.setProperty("webdriver.chrome.driver", "/Users/ieza/Desktop/test/TesteZup-Automa-o-web/TesteCucumber01/Selenium/chromedriver");
+       // System.setProperty("webdriver.chrome.driver", "/Users/ieza/Desktop/test/TesteZup-Automa-o-web/TesteCucumber01/Selenium/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:/Users/zupper/Documents/Zup/TesteZup Automacao/TesteZup-Automa-o-web/TesteCucumber01/target/drives/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://seubarriga.wcaquino.me/");
     }
