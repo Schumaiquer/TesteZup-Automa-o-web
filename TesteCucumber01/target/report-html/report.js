@@ -48,35 +48,35 @@ formatter.match({
   "location": "Stepdefs.oAppAberto()"
 });
 formatter.result({
-  "duration": 7255044266,
+  "duration": 7282649600,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.informoUmUsuarioESenha()"
 });
 formatter.result({
-  "duration": 202477653,
+  "duration": 216289707,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmEntrar()"
 });
 formatter.result({
-  "duration": 762873173,
+  "duration": 760677973,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmContasAdicionar()"
 });
 formatter.result({
-  "duration": 85415253,
+  "duration": 92955733,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmAdicionar()"
 });
 formatter.result({
-  "duration": 319700053,
+  "duration": 356174507,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,14 +106,14 @@ formatter.match({
   "location": "Stepdefs.umNomeDeConta()"
 });
 formatter.result({
-  "duration": 123717547,
+  "duration": 139999573,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmSalvar()"
 });
 formatter.result({
-  "duration": 399991467,
+  "duration": 358272853,
   "status": "passed"
 });
 formatter.match({
@@ -126,15 +126,16 @@ formatter.match({
   "location": "Stepdefs.validoMensagem(String)"
 });
 formatter.result({
-  "duration": 37008640,
+  "duration": 45671253,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Conta adicionada com sucesso]!\u003e but was:\u003c[Já existe uma conta com esse nome]!\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat steps.Stepdefs.validoMensagem(Stepdefs.java:73)\r\n\tat ✽.Then valido mensagem \"Conta adicionada com sucesso!\"(AddAccount.feature:17)\r\n",
+  "status": "failed"
+});
+formatter.after({
+  "duration": 327068160,
   "status": "passed"
 });
 formatter.after({
-  "duration": 317044907,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 755209813,
+  "duration": 1021181440,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -229,254 +230,16 @@ formatter.match({
   "location": "Stepdefs.oAppAberto()"
 });
 formatter.result({
-  "duration": 5718433280,
+  "duration": 4307782827,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.informoUmUsuarioESenha()"
 });
 formatter.result({
-  "duration": 208380160,
+  "duration": 441205760,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmEntrar()"
-});
-formatter.result({
-  "duration": 2751939840,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmContasAdicionar()"
-});
-formatter.result({
-  "duration": 85323946,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmAdicionar()"
-});
-formatter.result({
-  "duration": 344843947,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 27,
-  "name": "Deve validar regras de criacao de conta",
-  "description": "",
-  "id": "adicionar-conta;deve-validar-regras-de-criacao-de-conta;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@t3"
-    }
-  ]
-});
-formatter.step({
-  "line": 21,
-  "name": "informo uma conta \"\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 22,
-  "name": "Clico em salvar",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "valido mensagem \"Informe o nome da conta\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "",
-      "offset": 19
-    }
-  ],
-  "location": "Stepdefs.informoUmaConta(String)"
-});
-formatter.result({
-  "duration": 72860587,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmSalvar()"
-});
-formatter.result({
-  "duration": 308298240,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Informe o nome da conta",
-      "offset": 17
-    }
-  ],
-  "location": "Stepdefs.validoMensagem(String)"
-});
-formatter.result({
-  "duration": 41701973,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 262526720,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 741071787,
-  "status": "passed"
-});
-formatter.background({
-  "line": 7,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 8,
-  "name": "o app aberto",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 9,
-  "name": "informo um usuario e senha",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 10,
-  "name": "Clico em entrar",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Clico em Contas",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "Clico em Adicionar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Stepdefs.oAppAberto()"
-});
-formatter.result({
-  "duration": 5334839893,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.informoUmUsuarioESenha()"
-});
-formatter.result({
-  "duration": 204003840,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmEntrar()"
-});
-formatter.result({
-  "duration": 820852907,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmContasAdicionar()"
-});
-formatter.result({
-  "duration": 118774613,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmAdicionar()"
-});
-formatter.result({
-  "duration": 326661120,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 28,
-  "name": "Deve validar regras de criacao de conta",
-  "description": "",
-  "id": "adicionar-conta;deve-validar-regras-de-criacao-de-conta;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@t3"
-    }
-  ]
-});
-formatter.step({
-  "line": 21,
-  "name": "informo uma conta \"teste2\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 22,
-  "name": "Clico em salvar",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "valido mensagem \"Já existe uma conta com esse nome!\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "teste2",
-      "offset": 19
-    }
-  ],
-  "location": "Stepdefs.informoUmaConta(String)"
-});
-formatter.result({
-  "duration": 109557334,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmSalvar()"
-});
-formatter.result({
-  "duration": 302967893,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Já existe uma conta com esse nome!",
-      "offset": 17
-    }
-  ],
-  "location": "Stepdefs.validoMensagem(String)"
-});
-formatter.result({
-  "duration": 34772053,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 309409706,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 772041386,
-  "status": "passed"
-});
 });

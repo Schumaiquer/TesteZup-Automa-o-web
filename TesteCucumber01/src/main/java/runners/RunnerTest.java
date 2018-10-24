@@ -17,5 +17,5 @@ import org.junit.runner.RunWith;
         dryRun = false, // se for "true" da após executar os metodos faltando
         strict = false
 )
-public class Runner {
+public class RunnerTest {
 }
