@@ -48,35 +48,35 @@ formatter.match({
   "location": "Stepdefs.oAppAberto()"
 });
 formatter.result({
-  "duration": 7282649600,
+  "duration": 11514723414,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.informoUmUsuarioESenha()"
 });
 formatter.result({
-  "duration": 216289707,
+  "duration": 206946133,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmEntrar()"
 });
 formatter.result({
-  "duration": 760677973,
+  "duration": 786311253,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmContasAdicionar()"
 });
 formatter.result({
-  "duration": 92955733,
+  "duration": 213431467,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmAdicionar()"
 });
 formatter.result({
-  "duration": 356174507,
+  "duration": 411330560,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,14 +106,14 @@ formatter.match({
   "location": "Stepdefs.umNomeDeConta()"
 });
 formatter.result({
-  "duration": 139999573,
+  "duration": 168355840,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefs.clicoEmSalvar()"
 });
 formatter.result({
-  "duration": 358272853,
+  "duration": 406506240,
   "status": "passed"
 });
 formatter.match({
@@ -126,16 +126,15 @@ formatter.match({
   "location": "Stepdefs.validoMensagem(String)"
 });
 formatter.result({
-  "duration": 45671253,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Conta adicionada com sucesso]!\u003e but was:\u003c[Já existe uma conta com esse nome]!\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat steps.Stepdefs.validoMensagem(Stepdefs.java:73)\r\n\tat ✽.Then valido mensagem \"Conta adicionada com sucesso!\"(AddAccount.feature:17)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 327068160,
+  "duration": 39234987,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1021181440,
+  "duration": 346946560,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 893717760,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -228,18 +227,4 @@ formatter.step({
 });
 formatter.match({
   "location": "Stepdefs.oAppAberto()"
-});
-formatter.result({
-  "duration": 4307782827,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.informoUmUsuarioESenha()"
-});
-formatter.result({
-  "duration": 441205760,
-  "status": "passed"
-});
-formatter.match({
-  "location": "Stepdefs.clicoEmEntrar()"
 });
