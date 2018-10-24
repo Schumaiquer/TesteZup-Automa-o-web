@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b21f0dc7-76f6-484c-bc08-c497ad6afc5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/report-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/report-html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/adicionar-conta;conta-valida.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/adicionar-conta;conta-valida.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="b21f0dc7-76f6-484c-bc08-c497ad6afc5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,7 +196,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="42">
               <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -710,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65961000" />
+    <option name="totallyTimeSpent" value="66047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,8 +721,8 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8123393" visible="true" weight="0.36686838" />
-      <window_info id="Structure" order="1" sideWeight="0.18766066" side_tool="true" visible="true" weight="0.36686838" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80697054" visible="true" weight="0.36686838" />
+      <window_info id="Structure" order="1" sideWeight="0.1930295" side_tool="true" visible="true" weight="0.36686838" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -816,7 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="42">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
