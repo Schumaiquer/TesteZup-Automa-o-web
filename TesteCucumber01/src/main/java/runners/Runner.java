@@ -11,11 +11,10 @@ import org.junit.runner.RunWith;
         glue = "steps",  // pacote onde fica os steps
         plugin = {"html:target/report-html/"}, // gera relatorio
         monochrome = true, // habilita cores de execução
-        tags = {"@t2"},
+        tags = {"@t3"},
         snippets = SnippetType.CAMELCASE,
         dryRun = false, // se for "true" da após executar os metodos faltando
         strict = false
 )
 
-public class Runner {
-}
+public class Runner { }

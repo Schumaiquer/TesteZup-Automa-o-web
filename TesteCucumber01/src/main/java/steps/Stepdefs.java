@@ -120,4 +120,48 @@ public class Stepdefs extends Helpers {
         WebElement element = waitElementXPath("/html/body/div[1]");
         Assert.assertEquals("Usuário inserido com sucesso", element.getText());
     }
+
+    @When("^entro com login valido$")
+    public void entroComLoginValido() throws Throwable {
+        waitElementID("email").sendKeys("ieza@teste.qa");
+        waitElementID("senha").sendKeys("123");
+        waitElementTag("button").click();
+    }
+
+    @And("^seleciono o campo contas$")
+    public void selecionoOCampoContas() throws Throwable {
+        waitElementXPath("//*[@id=\"navbar\"]/ul/li[2]/a").click();
+    }
+
+    @Then("^clico em adicionar$")
+    public void clicoEmAdicionar() throws Throwable {
+        waitElementXPath("//*[@id=\"navbar\"]/ul/li[2]/ul/li[1]/a").click();
+
+    }
+
+    @And("^informo o nome da conta \"([^\"]*)\"$")
+    public void informoONomeDaConta(String nomeconta) throws Throwable {
+        waitElementXPath("//*[@id=\"nome\"]").sendKeys(nomeconta);
+    }
+
+    @And("^clico em salvar$")
+    public void clicoEmSalvar() throws Throwable {
+        waitElementXPath("/html/body/div[2]/form/div[2]/button").click();
+    }
+
+    @Then("^valido mensagem contas \"([^\"]*)\"$")
+    public void validoMensagemContas(String mensagem) throws Throwable {
+        WebElement element = waitElementXPath("/html/body/div[1]");
+        Assert.assertEquals(mensagem,
+                waitElementXPath("/html/body/div[1]").getText());
+
+    }
+
+    @Then("^valido mensagem erro contas$")
+    public void validoMensagemErroContas() throws Throwable {
+        WebElement element = waitElementXPath("/html/body/div[1]");
+        Assert.assertEquals("Informe o nome da conta",
+                waitElementXPath("/html/body/div[1]").getText());
+    }
+
 }
