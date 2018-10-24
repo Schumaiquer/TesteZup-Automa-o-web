@@ -10,6 +10,11 @@ Feature: Adicionar nova conta
     And seleciono o campo contas
     Then  clico em adicionar
 
+  Scenario: Deve validar cenário de sucesso
+    When Informo o nome da conta valida
+    And clico em salvar
+    Then valido mensagem de sucesso
+
   Scenario Outline: Deve validar as regras de Contas
     And  informo o nome da conta "<nomeconta>"
     And  clico em salvar
@@ -18,14 +23,5 @@ Feature: Adicionar nova conta
     Examples:
 
       | nomeconta      | mensagem                           |
-      | primeira conta | Conta adicionada com sucesso!      |
+      |                | Informe o nome da conta            |
       | conta repetida | Já existe uma conta com esse nome! |
-
-  Scenario: Campo conta vazio
-    When    seleciono o campo contas
-    And     clico em adicionar
-    When    clico em salvar
-    Then    valido mensagem erro contas
-
-
-

@@ -22,6 +22,9 @@ public class Helpers {
     public WebElement waitElementID(String element_ID) {
         return driver.findElement(By.id(element_ID));
     }
+    public WebElement waitElementClass(String element_Class){ return driver.findElement(By.className(element_Class));}
+
+    public WebElement waitElementLink(String element_Link){ return driver.findElement(By.linkText(element_Link));}
 
     public WebElement waitElementTag(String element_TAG) {
         return driver.findElement(By.tagName(element_TAG));

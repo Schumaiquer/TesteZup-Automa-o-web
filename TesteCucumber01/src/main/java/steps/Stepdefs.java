@@ -1,6 +1,5 @@
 package steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.en.And;
@@ -130,18 +129,18 @@ public class Stepdefs extends Helpers {
 
     @And("^seleciono o campo contas$")
     public void selecionoOCampoContas() throws Throwable {
-        waitElementXPath("//*[@id=\"navbar\"]/ul/li[2]/a").click();
+        waitElementLink("Contas").click();
     }
 
     @Then("^clico em adicionar$")
     public void clicoEmAdicionar() throws Throwable {
-        waitElementXPath("//*[@id=\"navbar\"]/ul/li[2]/ul/li[1]/a").click();
+        waitElementLink("Adicionar").click();
 
     }
 
     @And("^informo o nome da conta \"([^\"]*)\"$")
     public void informoONomeDaConta(String nomeconta) throws Throwable {
-        waitElementXPath("//*[@id=\"nome\"]").sendKeys(nomeconta);
+        waitElementID("nome").sendKeys(nomeconta);
     }
 
     @And("^clico em salvar$")
@@ -153,15 +152,20 @@ public class Stepdefs extends Helpers {
     public void validoMensagemContas(String mensagem) throws Throwable {
         WebElement element = waitElementXPath("/html/body/div[1]");
         Assert.assertEquals(mensagem,
-                waitElementXPath("/html/body/div[1]").getText());
+                element.getText());
+    }
+    @When("^Informo o nome da conta valida$")
+    public void informoONomeDaContaValida() throws Throwable {
+
+        Random r = new Random();
+        int random1 = r.nextInt(100);
+        waitElementID("nome").sendKeys("testando" + random1);
 
     }
 
-    @Then("^valido mensagem erro contas$")
-    public void validoMensagemErroContas() throws Throwable {
-        WebElement element = waitElementXPath("/html/body/div[1]");
-        Assert.assertEquals("Informe o nome da conta",
-                waitElementXPath("/html/body/div[1]").getText());
+    @Then("^valido mensagem de sucesso$")
+    public void validoMensagemDeSucesso() throws Throwable {
+       WebElement element =  waitElementXPath("/html/body/div[1]");
+       Assert.assertEquals("Conta adicionada com sucesso!",element.getText());
     }
-
 }
