@@ -17,4 +17,4 @@ import org.junit.runner.RunWith;
         strict = false
 )
 
-public class Runner { }
+public class RunnerTest { }
