@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b21f0dc7-76f6-484c-bc08-c497ad6afc5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/List.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runners/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Stepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/AddAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/AddAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/Helpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/runners/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/runners/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runners/RunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/steps/Stepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/Stepdefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/drives/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/drives/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/drives/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/report-html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/adicionar-nova-conta;deve-validar-cenário-de-sucesso.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/adicionar-nova-conta;deve-validar-cenário-de-sucesso.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;novo-usuario.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;novo-usuario.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,37 +104,39 @@
     <session id="-1643914031">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="1132" />
-          <entry key="java" value="557" />
+          <entry key="feature" value="3822" />
+          <entry key="java" value="1968" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="1132" />
-          <entry key="JAVA" value="557" />
+          <entry key="Cucumber" value="3822" />
+          <entry key="JAVA" value="1968" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="Cucumber" value="2" />
-          <entry key="JAVA" value="1" />
+          <entry key="CLASS" value="12" />
+          <entry key="Cucumber" value="17" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="feature" value="2" />
-          <entry key="java" value="1" />
+          <entry key="class" value="12" />
+          <entry key="feature" value="17" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -130,89 +147,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/runners/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/features/Login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/features/AddAccount.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/Stepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="151" column="72" lean-forward="true" selection-start-line="151" selection-start-column="72" selection-end-line="151" selection-end-column="72" />
+            <state relative-caret-position="503">
+              <caret line="280" column="43" lean-forward="true" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/features/RegisterNewUser.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TesteCucumber01.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -253,9 +194,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/features/RegisterNewUser.feature" />
         <option value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/main/java/runners/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/AddAccount.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/ListAccounts.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/List.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/runners/RunnerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" />
         <option value="$PROJECT_DIR$/src/main/java/steps/Stepdefs.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/AddAccount.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature" />
       </list>
     </option>
   </component>
@@ -296,63 +241,11 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <showMembers Scope="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -426,6 +319,74 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TesteCucumber01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -442,7 +403,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540400719732" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540579666586" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -470,8 +431,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.Runner">
-    <configuration name="Runner" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android JUnit.RunnerTest">
+    <configuration name="RunnerTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste" />
       <extension name="coverage">
         <pattern>
@@ -480,7 +441,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <option name="MAIN_CLASS_NAME" value="runners.RunnerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -488,14 +449,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: AddMovimentation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
-      <option name="GLUE" value="helpers steps" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TesteCucumber01" />
+      <module name="teste" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="SUGGESTED_NAME" value="Feature: AddMovimentation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -506,32 +467,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: List" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Login" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/List.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TesteCucumber01" />
+      <module name="teste" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: RegisterNewUser (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/RegisterNewUser.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TesteCucumber01" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: RegisterNewUser" />
+      <option name="SUGGESTED_NAME" value="Feature: List" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -560,24 +503,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: dom" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/dom.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TesteCucumber01" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: dom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Pasta Feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features" />
@@ -596,22 +521,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Deve validar as regras de movimentação" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="teste" />
+      <option name="NAME_FILTER" value="^Deve validar as regras de movimentação$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Deve validar as regras de movimentação$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deve validar as regras de movimentação" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Deve validar o combo de contas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="teste" />
+      <option name="NAME_FILTER" value="^Deve validar o combo de contas$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Deve validar o combo de contas$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deve validar o combo de contas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber java.Feature: RegisterNewUser" />
       <item itemvalue="Cucumber java.Pasta Feature" />
-      <item itemvalue="Android JUnit.Runner" />
-      <item itemvalue="Cucumber java.Feature: Login" />
-      <item itemvalue="Cucumber java.Feature: dom" />
-      <item itemvalue="Cucumber java.Feature: RegisterNewUser (1)" />
-      <item itemvalue="Cucumber java.Feature: Login (1)" />
+      <item itemvalue="Android JUnit.RunnerTest" />
+      <item itemvalue="Cucumber java.Feature: List" />
+      <item itemvalue="Cucumber java.Feature: AddMovimentation" />
+      <item itemvalue="Cucumber java.Scenario: Deve validar o combo de contas" />
+      <item itemvalue="Cucumber java.Scenario: Deve validar as regras de movimentação" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.Runner" />
-        <item itemvalue="Cucumber java.Feature: Login (1)" />
-        <item itemvalue="Cucumber java.Feature: RegisterNewUser (1)" />
-        <item itemvalue="Cucumber java.Feature: dom" />
-        <item itemvalue="Cucumber java.Feature: Login" />
+        <item itemvalue="Android JUnit.RunnerTest" />
+        <item itemvalue="Cucumber java.Scenario: Deve validar as regras de movimentação" />
+        <item itemvalue="Cucumber java.Scenario: Deve validar o combo de contas" />
+        <item itemvalue="Cucumber java.Feature: AddMovimentation" />
+        <item itemvalue="Cucumber java.Feature: List" />
       </list>
     </recent_temporary>
   </component>
@@ -637,49 +600,52 @@
       <workItem from="1540303740430" duration="9316000" />
       <workItem from="1540384567773" duration="4587000" />
       <workItem from="1540392000520" duration="2681000" />
+      <workItem from="1540473201994" duration="13678000" />
+      <workItem from="1540558304398" duration="12216000" />
+      <workItem from="1540579740770" duration="101000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2018.10.24 at 14h 30m 35s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 15h 26m 23s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 32m 08s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 15h 28m 43s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 49m 52s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 16h 37m 24s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 51m 10s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 16h 38m 52s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 52m 11s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 16h 41m 13s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 53m 37s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 16h 42m 35s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 54m 33s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 16h 43m 49s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 54m 51s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 16h 44m 39s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 14h 55m 09s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="Scenario__Deve_validar_as_regras_de_movimentação - 2018.10.26 at 16h 45m 36s.xml">
+      <configuration name="Scenario: Deve validar as regras de movimentação" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Runner - 2018.10.24 at 15h 01m 26s.xml">
-      <configuration name="Runner" configurationId="AndroidJUnit" />
+    <history-entry file="RunnerTest - 2018.10.26 at 16h 47m 17s.xml">
+      <configuration name="RunnerTest" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68432000" />
+    <option name="totallyTimeSpent" value="95099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17784877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18530351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -688,8 +654,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24692738" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988827" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24692738" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -708,6 +674,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18210863" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24692738" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32849163" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32402235" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -727,13 +723,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/features/dom" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/features/dom.feature" />
     <entry file="file://$PROJECT_DIR$/src/main/java/steps/MyStepdefsDOM.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/StepDefinitionMatch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -741,63 +730,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runners/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/TesteCucumber01.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/ListAccounts.feature" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="375">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Timeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Runtime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="329" selection-start-line="329" selection-end-line="329" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/StepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/JavaStepDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/RegisterNewUser.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TesteCucumber01.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#1335#2267#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/Login.feature">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="163">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/steps/Stepdefs.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="151" column="72" lean-forward="true" selection-start-line="151" selection-start-column="72" selection-end-line="151" selection-end-column="72" />
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/features/AddAccount.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/RegisterNewUser.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/List.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/RunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/steps/Stepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="280" column="43" lean-forward="true" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -853,11 +938,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TesteCucumber01</last-edited>
+          <last-edited>teste</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
