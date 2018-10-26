@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b21f0dc7-76f6-484c-bc08-c497ad6afc5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/List.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runners/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Stepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Stepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helpers/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/Helpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/runners/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/runners/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runners/RunnerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/Stepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/Stepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/drives/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/drives/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/drives/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report-html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/report-html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/adicionar-nova-conta;deve-validar-cenário-de-sucesso.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/adicionar-nova-conta;deve-validar-cenário-de-sucesso.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;deve-validar-as-regras-de-cadastro;;5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;novo-usuario.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/cadastrar-novo-usuario;novo-usuario.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="b21f0dc7-76f6-484c-bc08-c497ad6afc5a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,12 +85,13 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -128,15 +109,15 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="12" />
-          <entry key="Cucumber" value="17" />
-          <entry key="JAVA" value="13" />
+          <entry key="Cucumber" value="18" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="12" />
-          <entry key="feature" value="17" />
-          <entry key="java" value="13" />
+          <entry key="feature" value="18" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -147,11 +128,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runners/RunnerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/Stepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="503">
-              <caret line="280" column="43" lean-forward="true" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+              <caret line="280" column="43" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1298#1299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -246,74 +258,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="PackagesPane">
+        <subPane>
           <expand>
             <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Selenium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="helpers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="runners" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="features" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="TesteCucumber01" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TesteCucumber01" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -387,12 +337,74 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="TesteCucumber01" type="58d84e3e:PackageViewProjectNode" />
-              <item name="TesteCucumber01" type="616d4139:PackageViewModuleNode" />
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="Selenium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="helpers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="runners" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TesteCucumber01" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="teste" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="features" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -403,7 +415,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540579666586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540580222079" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -603,6 +615,7 @@
       <workItem from="1540473201994" duration="13678000" />
       <workItem from="1540558304398" duration="12216000" />
       <workItem from="1540579740770" duration="101000" />
+      <workItem from="1540580056569" duration="208000" />
     </task>
     <servers />
   </component>
@@ -639,13 +652,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95099000" />
+    <option name="totallyTimeSpent" value="95307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18530351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18690096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -840,24 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -872,17 +867,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runners/RunnerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="435">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/steps/Stepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
-          <caret line="280" column="43" lean-forward="true" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+          <caret line="280" column="43" selection-start-line="280" selection-start-column="43" selection-end-line="280" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/RunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="75" lean-forward="true" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/AddMovimentation.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
